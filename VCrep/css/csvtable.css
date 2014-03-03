@@ -1,0 +1,68 @@
+html {
+	
+ background-image: url('Silvergrain.png');
+ 
+
+}
+
+
+div {
+
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+
+/* CSV Table Classes */
+TABLE.CSVTable {
+	font: 1.2em league_gothicregular;
+	border-collapse: collapse;
+	width: 100%;
+	color: rgba(176, 179, 194, 0.9);
+	line-height: 1.5em;
+	
+
+
+
+}
+
+/* Header */
+TABLE.CSVTable THEAD TR {
+	background: ;
+	vertical-align: baseline;
+	
+}
+TABLE.CSVTable TH {
+	font-family: helvetica, sans-serif;
+	font-size: 1.5em;
+}
+
+/* Table Cells */
+TABLE.CSVTable TD, TABLE.CSVTable TH {
+	padding: 1em;
+	text-align: center;
+	border-bottom: none;
+	border-top: none;
+	color: white;
+
+}
+/* Default background color for rows */
+TABLE.CSVTable TR {
+	background: ;
+}
+/* Background color for odd rows */
+TABLE.CSVTable TR.odd {
+	background: rgba(0, 0, 3, 0.2);
+}
+/* Hover color for alle rows */
+TABLE.CSVTable TR:hover {
+	background: ;
+}
+
+/* Source code */
+.source {
+	
+	
+}

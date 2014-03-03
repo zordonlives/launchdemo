@@ -1,0 +1,80 @@
+html {
+	
+ background-image: url('Silvergrain.png');
+ 
+
+}
+@font-face {
+	font-family: Min;
+	src: url('Min.otf');
+}
+
+div {
+
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+
+/* CSV Table Classes */
+TABLE.CSVTable {
+	font: 1.2em Min; 
+	border-collapse: collapse;
+	width: 100%;
+	color: rgba();
+	line-height: 2px;
+	vertical-align: baseline;
+	
+
+}
+
+/* Header Text */
+.smaller {
+	font-size: 1.3em Min;
+	color: rgb(81,185,70);
+	line-height: 2px;
+	vertical-align: baseline;
+}
+
+/* Header */
+TABLE.CSVTable THEAD TR {
+	background: ;
+	vertical-align: baseline;
+	line-height: 5px;
+}
+
+TABLE.CSVTable TH {
+	font-family: Min;
+	font-size: 1.5em;
+}
+
+/* Table Cells */
+TABLE.CSVTable TD, TABLE.CSVTable TH {
+	font-family: Min;
+	padding: 1em;
+	text-align: center;
+	border-bottom: none;
+	border-top: none;
+	color: white;
+
+}
+/* Default background color for rows */
+TABLE.CSVTable TR {
+	background: ;
+}
+/* Background color for odd rows */
+TABLE.CSVTable TR.odd {
+	background: rgba(0, 0, 3, 0.2);
+}
+/* Hover color for alle rows */
+TABLE.CSVTable TR:hover {
+	background: ;
+}
+
+/* Source code */
+.source {
+	
+	
+}

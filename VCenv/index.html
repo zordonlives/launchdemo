@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Value Chain Environmental KPIs</title>
+
+	<link rel="stylesheet" href="css/csvtable.css" type="text/css" />
+
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.csvToTable.js"></script>
+	<script type="text/javascript" src="js/jquery.tablesorter.dev.js"></script>
+	
+	<script>
+	$(function() {
+		$.get('outputMatrixVCEnv.csv', function(data) {
+			('#CSVSource').html('<pre>' + data + '</pre>');
+		});
+		$('#CSVTable').CSVToTable('outputMatrixVCEnv.csv', { loadingImage: 'images/loading.gif', startLine: 0, headers: ['<p class= "VC">Value Chain</p><p class="VC">performance</p>', '<img src=\"images/ico_waterDK48.png\"><br><p>Water Use & Discharge</p></br>', '<img src=\"images/ico_wasteDK48.png\"><br><p>Physical Waste</p></br>', '<img src=\"images/ico_energyDK48.png\"><br><p>Energy and GHG</p></br>', '<img src=\"images/ico_chemicalDK48.png\"><br><p>Chemistry(Toxics)</p></br>'] });
+		$.get('test.tsv', function(data) {
+			$('#TSVSource').html('<pre>' + data + '</pre>');
+		});
+		$('#TSVTable').CSVToTable('test.tsv', { loadingText: 'Loading TSV Data...', loadingImage: 'images/loading.gif', startLine: 0, separator: "\t" });
+		$('#CSVTable2').CSVToTable('dummydata.csv', { loadingImage: 'images/loading.gif', startLine: 1, headers: ['Album Title', 'Artist Name', 'Price ($USD)'] }).bind("loadComplete",function() { 
+			$('#CSVTable2').find('TABLE').tablesorter();
+		});;
+	});
+	</script>
+</head>
+<body>
+
+
+
+<div id="CSVSource" class="source">
+</div>
+
+<br><br>
+<br>
+<div id="CSVTable">
+
+
+
+
+<br><br>
+CSV To Table - made sortable using <a target="_blank" href="http://tablesorter.com/">jQuery tablesorter:</a><br>
+<div id="CSVTable2">
+
+</div>
+
+
+</body>
+</html>
