@@ -40,8 +40,8 @@ TABLE.CSVTable {
 /* Header */
 .smaller {
 	font-size: 1.3em gothic;
-	line-height: 5px;
-	vertical-align: baseline;
+	line-height: 1em;
+	vertical-align: bottom;
 }
 #small {
 	color: rgb(101,42,123);
