@@ -8,8 +8,6 @@ html {
 @font-face {
 	font-family: Min;
 	src: url('Min.otf');
-  font-family: DIN;
-  src: url('/launch/css/OSP-DIN.ttf');
   font-family: gothic;
   src: url('/launch/css/GOTHIC.TTF');
 }
