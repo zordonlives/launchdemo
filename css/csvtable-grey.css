@@ -8,7 +8,7 @@ background: gray;
 	font-family: Min;
 	src: url('Min.otf');
   font-family: gothic;
-  src: url('/launch/css/GOTHIC.TTF');
+  src: url('GOTHIC.TTF');
 }
 
 div {
