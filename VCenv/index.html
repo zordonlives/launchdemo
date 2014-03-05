@@ -15,7 +15,7 @@
 		$.get('outputMatrixVCEnv.csv', function(data) {
 			('#CSVSource').html('<pre>' + data + '</pre>');
 		});
-		$('#CSVTable').CSVToTable('outputMatrixVCEnv.csv', { loadingImage: 'images/loading.gif', startLine: 0, headers: ['<p class= "VC">Value Chain</p><p class="VC">performance</p>', '<img src=\"images/ico_waterDK48.png\"><br><p>Water Use & Discharge</p></br>', '<img src=\"images/ico_wasteDK48.png\"><br><p>Physical Waste</p></br>', '<img src=\"images/ico_energyDK48.png\"><br><p>Energy and GHG</p></br>', '<img src=\"images/ico_chemicalDK48.png\"><br><p>Chemistry(Toxics)</p></br>'] });
+		$('#CSVTable').CSVToTable('outputMatrixVCEnv.csv', { loadingImage: 'images/loading.gif', startLine: 0, headers: ['<p class= "VC">Value Chain</p><p class="VC">performance</p>', '<img src=\"images/ico_waterLT48.png\"><br><p>Water Use & Discharge</p></br>', '<img src=\"images/ico_wasteLT48.png\"><br><p>Physical Waste</p></br>', '<img src=\"images/ico_energyLT48.png\"><br><p>Energy & GHG</p></br>', '<img src=\"images/ico_chemicalLT48.png\"><br><p>Chemistry(Toxics)</p></br>'] });
 		$.get('test.tsv', function(data) {
 			$('#TSVSource').html('<pre>' + data + '</pre>');
 		});

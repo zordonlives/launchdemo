@@ -1,6 +1,6 @@
 html {
 	
- background-image: url('good.png');
+background: gray;
  
 
 }
@@ -57,7 +57,7 @@ TABLE.CSVTable TD, TABLE.CSVTable TH {
 	text-align: center;
 	border-bottom: none;
 	border-top: none;
-	color: black;
+	color: white;
 
 }
 /* Default background color for rows */

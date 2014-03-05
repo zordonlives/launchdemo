@@ -15,7 +15,7 @@
 		$.get('outputMatrixVM.csv', function(data) {
 			('#CSVSource').html('<pre>' + data + '</pre>');
 		});
-		$('#CSVTable').CSVToTable('outputMatrixVM.csv', { loadingImage: 'images/loading.gif', startLine: 0, headers: ['<img src=\"images/VM_icon60.png\"><br><p class= "smaller">Brand</p></br>', '<img src=\"images/ico_profitLT48.png\"><p class= "smaller">Renenue</p></br>', '<img src=\"images/ico_revenueLT48.png\"><br><p class= "smaller">Profit</p></br>', '<p class= "smaller">Cash</p><p class= "smaller">on Hand</p>', '<img src=\"images/ico_communityLT48.png\"><br><p class= "smaller">Price Per Unit</p></br>'] });
+		$('#CSVTable').CSVToTable('outputMatrixVM.csv', { loadingImage: 'images/loading.gif', startLine: 0, headers: ['<img src=\"images/VM_icon60.png\"><br><p id= "color" class= "smaller">Brand</p></br>', '<img src=\"images/ico_revenueDK48.png\"><p class= "smaller">Revenue</p></br>', '<img src=\"images/ico_profitDK48.png\"><br><p class= "smaller">Profit</p></br>', '<img src=\"images/ico_costDK48.png\"><br><p class= "smaller">Profit to Date</p></br>', '<img src=\"images/ico_communityDK48.png\"><br><p class= "smaller">Price Per Unit</p></br>'] });
 		$.get('test.tsv', function(data) {
 			$('#TSVSource').html('<pre>' + data + '</pre>');
 		});

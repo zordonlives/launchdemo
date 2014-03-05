@@ -1,6 +1,6 @@
 html {
 	
- background-image: url('good.png');
+ 
  
 
 }
@@ -8,6 +8,10 @@ html {
 @font-face {
 	font-family: Min;
 	src: url('Min.otf');
+  font-family: DIN;
+  src: url('/launch/css/OSP-DIN.ttf');
+  font-family: DINgothic;
+  src: url('/launch/css/GOTCHIC.TTF');
 }
 
 
@@ -23,11 +27,12 @@ div {
 
 /* CSV Table Classes */
 TABLE.CSVTable {
-	font: 1.2em Min;
+	font: 1.2em gothic;
 	border-collapse: collapse;
 	width: 100%;
 	color: rgba();
 	line-height: 5px;
+	padding: ;
 	
 
 
@@ -36,25 +41,28 @@ TABLE.CSVTable {
 
 /* Header */
 .smaller {
-	font-size: 1.3em Min;
-	color: rgb(101,42,123);
+	font-size: 1.3em gothic;
 	line-height: 5px;
 	vertical-align: baseline;
 }
+#small {
+	color: rgb(101,42,123);
+
+}
 
 TABLE.CSVTable THEAD TR {
-	background: ;
-	vertical-align: baseline;
+	padding: 1em;
+	vertical-align: bottom;
 	
 }
 TABLE.CSVTable TH {
-	font-family: Min;
+	font-family: gothic;
 	font-size: 1.5em;
 }
 
 /* Table Cells */
 TABLE.CSVTable TD, TABLE.CSVTable TH {
-	font-family: Min;
+	font-family: gothic;
 	padding: 1em;
 	text-align: center;
 	border-bottom: none;

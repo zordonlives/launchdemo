@@ -1,6 +1,6 @@
 html {
 	
- background-image: url('Silvergrain.png');
+ background: gray;
  
 
 }
@@ -31,9 +31,13 @@ TABLE.CSVTable {
 }
 
 /* Header Text */
+#color {
+	color: rgb(81,185,70);
+}
+
 .smaller {
 	font-size: 1.3em Min;
-	color: rgb(81,185,70);
+	color:;
 	line-height: 2px;
 	vertical-align: baseline;
 }

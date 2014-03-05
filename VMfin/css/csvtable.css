@@ -1,6 +1,6 @@
 html {
 	
- background-image: url('Silvergrain.png');
+
  
 
 }
@@ -30,9 +30,12 @@ TABLE.CSVTable {
 }
 
 /* Header Text */
+#color{
+	color: rgb(30,136,176);
+}
+
 .smaller {
 	font-size: 1.3em Min;
-	color: rgb(30,136,176);
 	line-height: 5px;
 	vertical-align: baseline;
 }
@@ -56,7 +59,7 @@ TABLE.CSVTable TD, TABLE.CSVTable TH {
 	text-align: center;
 	border-bottom: none;
 	border-top: none;
-	color: white;
+	color: black;
 
 }
 /* Default background color for rows */

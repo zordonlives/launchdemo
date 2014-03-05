@@ -1,13 +1,18 @@
 html {
 	
-
+ 
  
 
 }
+
 @font-face {
 	font-family: Min;
 	src: url('Min.otf');
+  font-family: DIN;
+  src: url('/launch/css/OSP-DIN.ttf');
 }
+
+
 
 div {
 
@@ -20,31 +25,34 @@ div {
 
 /* CSV Table Classes */
 TABLE.CSVTable {
-	font: 1.2em Min; 
+	font: 1.2em Min;
 	border-collapse: collapse;
 	width: 100%;
 	color: rgba();
 	line-height: 5px;
-	
+	padding: ;
 	
 
-}
 
-/* Header Text */
-.smaller {
-	font-size: 1.3em Min;
-	color: rgb();
-	line-height: 5px;
-	vertical-align: baseline;
+
 }
 
 /* Header */
-TABLE.CSVTable THEAD TR {
-	background: ;
-	vertical-align: baseline;
+.smaller {
+	font-size: 1.3em Min;
 	line-height: 5px;
+	vertical-align: baseline;
+}
+#small {
+	color: rgb(101,42,123);
+
 }
 
+TABLE.CSVTable THEAD TR {
+	padding: 1em;
+	vertical-align: bottom;
+	
+}
 TABLE.CSVTable TH {
 	font-family: Min;
 	font-size: 1.5em;
@@ -77,4 +85,4 @@ TABLE.CSVTable TR:hover {
 .source {
 	
 	
-}	
+}
