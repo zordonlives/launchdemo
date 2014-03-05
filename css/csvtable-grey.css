@@ -7,6 +7,8 @@ background: gray;
 @font-face {
 	font-family: Min;
 	src: url('Min.otf');
+  font-family: gothic;
+  src: url('/launch/css/GOTHIC.TTF');
 }
 
 div {
@@ -20,7 +22,7 @@ div {
 
 /* CSV Table Classes */
 TABLE.CSVTable {
-	font: 1.2em Min; 
+	font: 1.2em gothic; 
 	border-collapse: collapse;
 	width: 100%;
 	color: rgba();
@@ -32,7 +34,7 @@ TABLE.CSVTable {
 
 /* Header Text */
 .smaller {
-	font-size: 1.2em Min;
+	font-size: 1.2em gothic;
 	color: rgb();
 	line-height: 2px;
 	vertical-align: baseline;
@@ -46,13 +48,13 @@ TABLE.CSVTable THEAD TR {
 }
 
 TABLE.CSVTable TH {
-	font-family: Min;
+	font-family: gothic;
 	font-size: 1.2em;
 }
 
 /* Table Cells */
 TABLE.CSVTable TD, TABLE.CSVTable TH {
-	font-family: Min;
+	font-family: gothic;
 	padding: 1em;
 	text-align: center;
 	border-bottom: none;

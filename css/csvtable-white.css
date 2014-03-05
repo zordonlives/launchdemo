@@ -10,8 +10,8 @@ html {
 	src: url('Min.otf');
   font-family: DIN;
   src: url('/launch/css/OSP-DIN.ttf');
-  font-family: DINgothic;
-  src: url('/launch/css/GOTCHIC.TTF');
+  font-family: gothic;
+  src: url('/launch/css/GOTHIC.TTF');
 }
 
 
