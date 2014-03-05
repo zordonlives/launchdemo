@@ -1,6 +1,6 @@
 html {
 	
-background: gray;
+ background: grey;
  
 
 }
@@ -25,16 +25,17 @@ TABLE.CSVTable {
 	width: 100%;
 	color: rgba();
 	line-height: 5px;
-	vertical-align: baseline;
 	
 
 }
 
 /* Header Text */
+#color {
+	color: rgb(224,113,31);
+}
 .smaller {
-	font-size: 1.2em Min;
-	color: rgb();
-	line-height: 2px;
+	font-size: 1.3em Min;
+	line-height: 5px;
 	vertical-align: baseline;
 }
 
@@ -42,12 +43,12 @@ TABLE.CSVTable {
 TABLE.CSVTable THEAD TR {
 	background: ;
 	vertical-align: baseline;
-	line-height: 5px;
+	
 }
 
 TABLE.CSVTable TH {
 	font-family: Min;
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 
 /* Table Cells */
