@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Vertical Manufacturing Financials</title>
+
+	<link rel="stylesheet" href="css/csvtable-white.css" type="text/css" />
+
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.csvToTable.js"></script>
+	<script type="text/javascript" src="js/jquery.tablesorter.dev.js"></script>
+	
+	<script>
+	$(function() {
+		$.get('outputMatrixVM.csv', function(data) {
+			('#CSVSource').html('<pre>' + data + '</pre>');
+		});
+		$('#CSVTable').CSVToTable('outputMatrixVM.csv', { loadingImage: 'images/loading.gif', startLine: 0, headers: ['<img src=\"images/VM_icon60.png\"><br><p id= "color" class= "smaller">Brand</p></br>', '<img src=\"images/ico_revenueDK48.png\"><p class= "smaller">Revenue</p></br>', '<img src=\"images/ico_profitDK48.png\"><br><p class= "smaller">Profit</p></br>', '<img src=\"images/ico_costDK48.png\"><br><p class= "smaller">Profit to Date</p></br>', '<img src=\"images/ico_communityDK48.png\"><br><p class= "smaller">Price Per Unit</p></br>'] });
+	});
+	</script>
+</head>
+<body>
+
+<div id="CSVSource" class="source">
+</div>
+
+<br><br>
+<br>
+<div id="CSVTable">
+</div>
+
+
+</body>
+</html>

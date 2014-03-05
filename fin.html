@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Value Chain Financial KPIs</title>
+
+	<link rel="stylesheet" href="css/csvtable-grey.css" type="text/css" />
+
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.csvToTable.js"></script>
+	<script type="text/javascript" src="js/jquery.tablesorter.dev.js"></script>
+	
+	<script>
+	$(function() {
+		$.get('outputMatrixVCFinance.csv', function(data) {
+			('#CSVSource').html('<pre>' + data + '</pre>');
+		});
+		$('#CSVTable').CSVToTable('outputMatrixVCFinance.csv', { loadingImage: 'images/loading.gif', startLine: 0, headers: ['<p class= "smaller">Value Chain</p><p class="smaller">Performance</p>', '<img src=\"images/ico_revenueDK48.png\"><br><p class= "smaller">Revenue</p></br>', '<img src=\"images/ico_profitDK48.png\"><br><p class+ "smaller">Profit</p></br>', '<img src=\"images/ico_communityDK48.png\"><br><p class= "smaller">Rep/Rel</p></br>'] });
+	});
+	</script>
+</head>
+<body>
+
+
+
+<div id="CSVSource" class="source">
+
+<div id="CSVTable">
+
+</div>
+
+
+</body>
+</html>
