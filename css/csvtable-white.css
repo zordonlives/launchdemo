@@ -43,7 +43,19 @@ TABLE.CSVTable {
 	line-height: 1em;
 	vertical-align: top;
 }
-#small {
+#brand {
+	color: rgb(101,42,123);
+
+}
+#vm {
+	color: rgb(101,42,123);
+
+}
+#rms {
+	color: rgb(101,42,123);
+
+}
+#chem {
 	color: rgb(101,42,123);
 
 }
