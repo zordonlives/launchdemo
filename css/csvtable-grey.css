@@ -37,14 +37,14 @@ TABLE.CSVTable {
 	font-size: 1.2em gothic;
 	color: rgb();
 	line-height: 1em;
-	vertical-align: baseline;
+	vertical-align: top;
 }
 
 /* Header */
 TABLE.CSVTable THEAD TR {
 	background: ;
-	vertical-align: baseline;
-	line-height: 5px;
+	vertical-align: top;
+	line-height: 1em;
 }
 
 TABLE.CSVTable TH {

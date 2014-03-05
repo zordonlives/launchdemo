@@ -41,7 +41,7 @@ TABLE.CSVTable {
 .smaller {
 	font-size: 1.3em gothic;
 	line-height: 1em;
-	vertical-align: bottom;
+	vertical-align: top;
 }
 #small {
 	color: rgb(101,42,123);
@@ -50,7 +50,7 @@ TABLE.CSVTable {
 
 TABLE.CSVTable THEAD TR {
 	padding: 1em;
-	vertical-align: bottom;
+	vertical-align: top;
 	
 }
 TABLE.CSVTable TH {
