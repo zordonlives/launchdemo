@@ -15,7 +15,7 @@
 		$.get('outputMatrixBrand.csv', function(data) {
 			('#CSVSource').html('<pre>' + data + '</pre>');
 		});
-    $('#CSVTable').CSVToTable('outputMatrixBrand.csv', { loadingImage: 'images/loading.gif', startLine: 0, headers: ['<img src=\"images/brand_icon48.png\"><br><p id="small" class= "smaller">Brand</p></br>','<img src=\"images/ico_communityDK48.png\"><br><p class= "smaller">Brand Reputation</p></br>', '<img src=\"images/ico_revenueDK48.png\"><br><p class= "smaller">Revenue</p></br>', '<img src=\"images/ico_profitDK48.png\"><br><p class= "smaller">Profit</p></br>', '<img src=\"images/moneybagsDK48.png\"><br><p class= "smaller">Profit to Date</p></br>', '<img src=\"images/ico_priceDK48.png\"><br><p class= "smaller">Cost Per Unit</p></br>'] });
+    $('#CSVTable').CSVToTable('outputMatrixBrand.csv', { loadingImage: 'images/loading.gif', startLine: 0, headers: ['<img src=\"images/brand_icon48.png\"><br><p id= "brand" class= "smaller">Brand</p></br>','<img src=\"images/ico_communityDK48.png\"><br><p class= "smaller">Brand Reputation</p></br>', '<img src=\"images/ico_revenueDK48.png\"><br><p class= "smaller">Revenue</p></br>', '<img src=\"images/ico_profitDK48.png\"><br><p class= "smaller">Profit</p></br>', '<img src=\"images/moneybagsDK48.png\"><br><p class= "smaller">Profit to Date</p></br>', '<img src=\"images/ico_priceDK48.png\"><br><p class= "smaller">Cost Per Unit</p></br>'] });
 	});
 	</script>
 </head>
