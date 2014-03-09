@@ -22,7 +22,7 @@ div {
 
 /* CSV Table Classes */
 TABLE.CSVTable {
-	font: 1.2em gothic; 
+	font: .90em gothic; 
 	border-collapse: collapse;
 	width: 100%;
 	color: rgba();
@@ -34,7 +34,7 @@ TABLE.CSVTable {
 
 /* Header Text */
 .smaller {
-	font-size: 1.2em gothic;
+	font-size: 1em gothic;
 	color: rgb();
 	line-height: 1em;
 	vertical-align: top;
@@ -49,7 +49,7 @@ TABLE.CSVTable THEAD TR {
 
 TABLE.CSVTable TH {
 	font-family: gothic;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 /* Table Cells */
